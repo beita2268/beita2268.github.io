@@ -1,0 +1,19 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <circle cx="270" cy="165" r="125" fill="#FFF3D8" fill-opacity="0.78"/>
+  <path d="M0 612C119 558 214 526 335 526C487 526 588 612 704 612C813 612 907 553 1007 553C1088 553 1154 576 1200 596V800H0V612Z" fill="#FFE6B0" fill-opacity="0.42"/>
+  <path d="M0 679C126 622 247 600 359 600C515 600 600 684 747 684C861 684 952 611 1067 611C1117 611 1161 617 1200 628V800H0V679Z" fill="#2B4A5A" fill-opacity="0.62"/>
+  <path d="M842 338L1016 392L912 439L924 520L810 468L720 529L748 425L644 384L777 361L815 251L842 338Z" fill="#FFD46A"/>
+  <path d="M183 557C198 520 225 494 265 482C267 522 260 555 243 581C229 603 210 620 185 631C176 604 176 581 183 557Z" fill="#203F4A"/>
+  <path d="M269 543C285 500 316 469 361 456C362 506 354 545 334 575C319 598 298 617 271 629C260 600 260 571 269 543Z" fill="#295261"/>
+  <path d="M978 560L1037 515L1078 561V632H978V560Z" fill="#203F4A" fill-opacity="0.74"/>
+  <text x="92" y="132" fill="#FFF8F0" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="52" font-weight="700">向僵尸开炮</text>
+  <text x="92" y="190" fill="#FFE2A3" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="28">官方页面整理</text>
+  <defs>
+    <linearGradient id="bg" x1="88" y1="48" x2="1106" y2="753" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6A93A"/>
+      <stop offset="0.54" stop-color="#DF6F42"/>
+      <stop offset="1" stop-color="#264657"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -7,53 +7,142 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="site-background"></div>
+
   <div class="page-shell">
-    <header class="hero">
-      <p class="eyebrow">MVP 版本</p>
-      <h1>GamePath 游戏攻略站</h1>
-      <p class="hero-text">
-        一个先能上线、再慢慢扩展的游戏攻略网站。现在你可以先展示攻略列表、查看详情，再逐步加入更多游戏和内容。
-      </p>
-      <div class="hero-actions">
-        <a href="#guide-list" class="button button-primary">查看攻略</a>
-        <a href="#how-to-use" class="button button-secondary">站点说明</a>
+    <nav class="topbar">
+      <a href="#" class="brand" aria-label="GamePath 首页">
+        <span class="brand-mark">GP</span>
+        <span class="brand-text">
+          <strong>GamePath</strong>
+          <small>Official-first game guide library</small>
+        </span>
+      </a>
+
+      <div class="topbar-links">
+        <a href="#guide-list">攻略库</a>
+        <a href="#principles">设计原则</a>
+        <a href="#how-to-use">阅读方式</a>
       </div>
+
+      <a href="#guide-list" class="topbar-cta">Browse guides</a>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Curated guide system</p>
+        <h1>把游戏攻略整理成更值得分享的内容产品</h1>
+        <p class="hero-text">
+          这个版本专注于一件事：让读者用最短时间找到靠谱内容。我们保留静态站的轻量部署方式，同时把阅读体验升级成更接近现代产品站的质感。
+        </p>
+
+        <div class="hero-actions">
+          <a href="#guide-list" class="button button-primary">查看攻略库</a>
+          <a href="#how-to-use" class="button button-secondary">了解结构</a>
+        </div>
+
+        <div class="hero-signals">
+          <span>Official source links</span>
+          <span>Focused guide structure</span>
+          <span>Responsive reading experience</span>
+        </div>
+      </div>
+
+      <aside class="hero-panel">
+        <div class="hero-panel-header">
+          <p class="section-kicker">Library snapshot</p>
+          <span class="status-pill">Live</span>
+        </div>
+
+        <div class="hero-metrics">
+          <article class="metric-card">
+            <span class="metric-label">已收录</span>
+            <strong id="guideCount">0</strong>
+            <p>篇官方整理内容</p>
+          </article>
+
+          <article class="metric-card">
+            <span class="metric-label">类型覆盖</span>
+            <strong id="categoryCount">0</strong>
+            <p>个内容分类</p>
+          </article>
+
+          <article class="metric-card metric-card-accent">
+            <span class="metric-label">内容策略</span>
+            <strong>精简可信</strong>
+            <p>先给读者最该看的信息，再延展细节</p>
+          </article>
+        </div>
+      </aside>
     </header>
 
-    <main class="layout">
+    <section class="highlight-grid" id="principles">
+      <article class="highlight-card">
+        <p class="section-kicker">Information first</p>
+        <h2>先建立理解，再给复杂攻略</h2>
+        <p>让读者先看懂玩法入口、官方信息和资源节奏，而不是一开始就被大段术语压住。</p>
+      </article>
+
+      <article class="highlight-card">
+        <p class="section-kicker">Calm navigation</p>
+        <h2>分类、搜索、详情三层都足够清楚</h2>
+        <p>页面把决策路径压缩到最短，用户先筛选，再浏览，再进入完整详情，不需要反复跳转。</p>
+      </article>
+
+      <article class="highlight-card">
+        <p class="section-kicker">Consistent system</p>
+        <h2>统一间距、卡片、层级和动效</h2>
+        <p>整个页面尽量不靠夸张视觉取胜，而是靠稳的比例、留白和微交互建立高级感。</p>
+      </article>
+    </section>
+
+    <main class="content-layout">
       <section class="panel panel-list" id="guide-list">
         <div class="section-heading">
           <div>
-            <p class="section-kicker">攻略目录</p>
-            <h2>先放 3 篇示例攻略</h2>
+            <p class="section-kicker">Guide library</p>
+            <h2>按游戏类型快速进入攻略</h2>
           </div>
+
           <label class="search-box">
-            <span>搜索</span>
-            <input id="searchInput" type="text" placeholder="输入游戏名或关键词">
+            <span>搜索关键词</span>
+            <input id="searchInput" type="text" placeholder="输入游戏名、玩法、资源、植物、职业">
           </label>
         </div>
 
+        <div id="filterBar" class="filter-bar"></div>
         <div id="guideCards" class="guide-cards"></div>
       </section>
 
       <section class="panel panel-detail" id="guide-detail">
-        <p class="section-kicker">攻略详情</p>
+        <div class="panel-heading">
+          <div>
+            <p class="section-kicker">Reading panel</p>
+            <h2>单篇攻略详情</h2>
+          </div>
+          <span class="panel-note">Focus view</span>
+        </div>
+
         <div id="guideDetail"></div>
       </section>
     </main>
 
-    <section class="panel tips" id="how-to-use">
-      <p class="section-kicker">这个版本能做什么</p>
-      <h2>先做到“别人能打开并看到内容”</h2>
-      <ul>
-        <li>可以展示你的游戏攻略列表</li>
-        <li>可以点开看每篇攻略重点</li>
-        <li>可以按关键词搜索</li>
-        <li>可以直接部署到 GitHub Pages</li>
-      </ul>
-      <p>
-        后面如果你愿意，我们再继续加：分类页、图片、视频、评论区、投稿后台。
-      </p>
+    <section class="lower-grid">
+      <article class="panel insight-card">
+        <p class="section-kicker">What this site does well</p>
+        <h2>适合先做内容可信度和可读性</h2>
+        <p>如果你目前最重要的是把攻略做得“看起来值得信任”，这种轻后台、重排版、重结构的内容站路线非常合适。</p>
+      </article>
+
+      <article class="panel insight-card" id="how-to-use">
+        <p class="section-kicker">How to read</p>
+        <h2>推荐的阅读顺序很简单</h2>
+        <ul class="simple-list">
+          <li>先按分类筛选到对应游戏</li>
+          <li>再看“重点提醒”和“推荐步骤”</li>
+          <li>最后通过官方链接继续深挖细节</li>
+        </ul>
+      </article>
     </section>
   </div>
 

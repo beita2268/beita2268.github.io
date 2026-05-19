@@ -1,0 +1,19 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <circle cx="910" cy="170" r="136" fill="#FFE5C4" fill-opacity="0.75"/>
+  <path d="M0 641C138 571 242 546 336 546C495 546 560 662 704 662C832 662 940 597 1060 597C1116 597 1163 605 1200 617V800H0V641Z" fill="#F3B56A" fill-opacity="0.36"/>
+  <path d="M0 695C133 629 270 600 381 600C528 600 608 690 740 690C873 690 972 605 1087 605C1134 605 1172 612 1200 623V800H0V695Z" fill="#7F4231" fill-opacity="0.62"/>
+  <path d="M241 534L429 254L508 300L355 559L241 534Z" fill="#FFF4EA" fill-opacity="0.88"/>
+  <path d="M436 257L495 167L553 203L507 301L436 257Z" fill="#FFDFB4"/>
+  <path d="M528 276L632 345L502 541L416 509L528 276Z" fill="#2F1730" fill-opacity="0.54"/>
+  <path d="M175 608C259 531 355 487 470 477C449 560 409 621 349 664C296 702 235 728 166 741C154 691 157 646 175 608Z" fill="#2A1426" fill-opacity="0.52"/>
+  <text x="88" y="132" fill="#FFF8F0" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="52" font-weight="700">地下城与勇士</text>
+  <text x="88" y="190" fill="#FFD8A4" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="28">官方入口整理</text>
+  <defs>
+    <linearGradient id="bg" x1="101" y1="35" x2="1072" y2="746" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E79B61"/>
+      <stop offset="0.55" stop-color="#AE5A48"/>
+      <stop offset="1" stop-color="#402242"/>
+    </linearGradient>
+  </defs>
+</svg>

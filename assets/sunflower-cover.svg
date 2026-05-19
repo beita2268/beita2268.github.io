@@ -1,0 +1,28 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="36" fill="url(#bg)"/>
+  <circle cx="922" cy="165" r="120" fill="#FFF8D3" fill-opacity="0.82"/>
+  <path d="M0 629C128 575 229 546 330 546C468 546 536 623 660 623C783 623 871 566 1001 566C1080 566 1145 586 1200 607V800H0V629Z" fill="#FFF0B7" fill-opacity="0.5"/>
+  <path d="M0 689C131 623 254 598 380 598C523 598 618 682 750 682C857 682 948 612 1064 612C1116 612 1161 620 1200 632V800H0V689Z" fill="#67A66A" fill-opacity="0.58"/>
+  <circle cx="257" cy="379" r="77" fill="#6A4621"/>
+  <circle cx="257" cy="379" r="52" fill="#8D5E2C"/>
+  <path d="M257 260L286 313L257 328L228 313L257 260Z" fill="#FFD663"/>
+  <path d="M349 287L336 346L303 344L291 314L349 287Z" fill="#FFD663"/>
+  <path d="M388 379L336 392L321 360L347 333L388 379Z" fill="#FFD663"/>
+  <path d="M349 471L291 444L303 414L336 412L349 471Z" fill="#FFD663"/>
+  <path d="M257 498L228 444L257 430L286 444L257 498Z" fill="#FFD663"/>
+  <path d="M165 471L178 412L211 414L223 444L165 471Z" fill="#FFD663"/>
+  <path d="M126 379L178 333L193 360L167 392L126 379Z" fill="#FFD663"/>
+  <path d="M165 287L223 314L211 344L178 346L165 287Z" fill="#FFD663"/>
+  <rect x="248" y="443" width="18" height="151" rx="9" fill="#3E8B49"/>
+  <path d="M267 500C313 479 355 480 396 502C357 531 319 540 281 528C273 525 267 518 267 500Z" fill="#4AA55A"/>
+  <path d="M248 540C201 514 157 510 115 530C157 560 197 570 236 557C243 554 248 549 248 540Z" fill="#57B45B"/>
+  <text x="88" y="132" fill="#FFFDF4" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="52" font-weight="700">保卫向日葵</text>
+  <text x="88" y="190" fill="#FFF1A5" font-family="Trebuchet MS, Segoe UI, sans-serif" font-size="28">官方内容整理</text>
+  <defs>
+    <linearGradient id="bg" x1="85" y1="43" x2="1105" y2="747" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C7EE92"/>
+      <stop offset="0.58" stop-color="#79C76A"/>
+      <stop offset="1" stop-color="#3E8557"/>
+    </linearGradient>
+  </defs>
+</svg>
